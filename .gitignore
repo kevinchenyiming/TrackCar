@@ -1,0 +1,35 @@
+#----------------------------------------------------------------------------
+# from github.com/andreasonny83
+#----------------------------------------------------------------------------
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables file
+.env
+
+#----------------------------------------------------------------------------
+# from github.com/kriskhaira
+#----------------------------------------------------------------------------
+
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+#----------------------------------------------------------------------------
+# from github.com/jcchouinard
+#----------------------------------------------------------------------------
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+
